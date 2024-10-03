@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E474E8A8-55A1-4991-8E66-6752137934D3}</ProjectGuid>
+    <ProjectGuid>{5EDCB379-3B82-4FF6-807E-1DEBDE08E756}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BLL</RootNamespace>
     <AssemblyName>BLL</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -42,14 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SanPhamBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{e012d3ed-92cd-40cd-923b-b1ec813fadd4}</Project>
+      <Project>{6e43ea2c-1a15-4c99-9cc3-7f1e0892a458}</Project>
       <Name>DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\DTO\DTO.csproj">
-      <Project>{b1562c92-48e0-48e9-bc65-d79cc256bdb7}</Project>
+      <Project>{67e16fbc-c11e-465d-a108-2f88486882c0}</Project>
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
